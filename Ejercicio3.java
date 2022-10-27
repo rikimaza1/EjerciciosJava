@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Ejercicio3 {
+public class Ejercicios3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -25,8 +25,8 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un array con los nombres de los meses. A continuación pide al usuario un
-	 * número del 1 al 12. Muéstrale el nombre del mes correspondiente sin usar
+	 * Crea un array con los nombres de los meses. A continuaciÃ³n pide al usuario un
+	 * nÃºmero del 1 al 12. MuÃ©strale el nombre del mes correspondiente sin usar
 	 * estructuras condicionales (es decir, a partir de los valores del array).
 	 */
 	public static void ejercicio1() {
@@ -52,11 +52,11 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un array de enteros con 10 posiciones. A continuación pide al usuario
-	 * que vaya introduciendo uno a uno los 10 números por consola. Muestra lo
-	 * siguiente: a. La lista de números introducidos b. La suma de los números c.
-	 * La media de los números d. El mayor y el menor de los números (crea un máximo
-	 * y un mínimo provisional que será igual al primer número del array, después
+	 * Crea un array de enteros con 10 posiciones. A continuaciÃ³n pide al usuario
+	 * que vaya introduciendo uno a uno los 10 nÃºmeros por consola. Muestra lo
+	 * siguiente: a. La lista de nÃºmeros introducidos b. La suma de los nÃºmeros c.
+	 * La media de los nÃºmeros d. El mayor y el menor de los nÃºmeros (crea un mÃ¡ximo
+	 * y un mÃ­nimo provisional que serÃ¡ igual al primer nÃºmero del array, despuÃ©s
 	 * vas comparando con el resto de posiciones).
 	 * 
 	 */
@@ -96,8 +96,8 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Pide al usuario 10 números con decimales (double). Usa un array para
-	 * almacenarlos. Muestra la media y los números que están por encima de esa
+	 * Pide al usuario 10 nÃºmeros con decimales (double). Usa un array para
+	 * almacenarlos. Muestra la media y los nÃºmeros que estÃ¡n por encima de esa
 	 * media.
 	 */
 	public static void ejercicio3() {
@@ -120,11 +120,11 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un programa que almacene en una tabla el número de días que tiene cada
-	 * mes (de un año no bisiesto), pida al usuario que te indique un mes (ej. 2
-	 * para febrero) y un día (ej. el día 15). Muéstrale qué número de día es dentro
-	 * del año (por ejemplo, el 15 de febrero sería el día número 46, y el 31 de
-	 * diciembre sería el día 365).
+	 * Crea un programa que almacene en una tabla el nÃºmero de dÃ­as que tiene cada
+	 * mes (de un aÃ±o no bisiesto), pida al usuario que te indique un mes (ej. 2
+	 * para febrero) y un dÃ­a (ej. el dÃ­a 15). MuÃ©strale quÃ© nÃºmero de dÃ­a es dentro
+	 * del aÃ±o (por ejemplo, el 15 de febrero serÃ­a el dÃ­a nÃºmero 46, y el 31 de
+	 * diciembre serÃ­a el dÃ­a 365).
 	 */
 	public static void ejercicio4() {
 		Scanner in = new Scanner(System.in);
@@ -162,14 +162,14 @@ public class Ejercicio3 {
 
 	/*
 	 * Crea 2 arrays, uno para almacenar notas de alumnos y otro para almacenar sus
-	 * nombres. A continuación pregunta al usuario cuántos alumnos hay en total. En
-	 * función del número de alumnos pide sus nombres y sus notas y guárdalos en los
+	 * nombres. A continuaciÃ³n pregunta al usuario cuÃ¡ntos alumnos hay en total. En
+	 * funciÃ³n del nÃºmero de alumnos pide sus nombres y sus notas y guÃ¡rdalos en los
 	 * respectivos arrays.
 	 */
 	public static void ejercicio5() {
 		String[] nombreAlumnos;
 		Double[] notasAlumnos;
-		System.out.println("¿Cuantos alumnos tiene?");
+		System.out.println("Â¿Cuantos alumnos tiene?");
 		int numeroAlumnos = new Scanner(System.in).nextInt();
 		nombreAlumnos = new String[numeroAlumnos];
 		notasAlumnos = new Double[numeroAlumnos];
@@ -185,9 +185,9 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un array de números enteros con 10 posiciones. Pregunta al usuario por
-	 * un número y guarda en el array la tabla de multiplicar de dicho número. A
-	 * continuación, recorre el array y muestra lo que tienes almacenado. Por
+	 * Crea un array de nÃºmeros enteros con 10 posiciones. Pregunta al usuario por
+	 * un nÃºmero y guarda en el array la tabla de multiplicar de dicho nÃºmero. A
+	 * continuaciÃ³n, recorre el array y muestra lo que tienes almacenado. Por
 	 * ejemplo, si introducimos 6:
 	 */
 	public static void ejercicio6() {
@@ -203,7 +203,7 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un programa con 2 arrays que almacenen 10 números cada uno (pon los
+	 * Crea un programa con 2 arrays que almacenen 10 nÃºmeros cada uno (pon los
 	 * valores que quieras). Suma las posiciones de ambos arrays (usa un bucle) en
 	 * un tercer array, y al final muestra los resultados:
 	 * 
@@ -251,7 +251,7 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Pide al usuario que escriba un nombre y guárdalo. A continuación, muestra las
+	 * Pide al usuario que escriba un nombre y guÃ¡rdalo. A continuaciÃ³n, muestra las
 	 * vocales que contiene ese nombre (debes recorrer la cadena y comparar sus
 	 * caracteres).
 	 * 
@@ -274,10 +274,10 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un programa que reciba 2 parámetros de entrada. Esos 2 parámetros serán
-	 * 2 números que el programa sumará y mostrará el resultado. Se debe comprobar
-	 * que se 2 han recibido esos 2 parámetros o mostrar un error. Recuerda que los
-	 * parámetros se reciben como cadenas, por lo que hay que convertirlos a número.
+	 * Crea un programa que reciba 2 parÃ¡metros de entrada. Esos 2 parÃ¡metros serÃ¡n
+	 * 2 nÃºmeros que el programa sumarÃ¡ y mostrarÃ¡ el resultado. Se debe comprobar
+	 * que se 2 han recibido esos 2 parÃ¡metros o mostrar un error. Recuerda que los
+	 * parÃ¡metros se reciben como cadenas, por lo que hay que convertirlos a nÃºmero.
 	 */
 	public static void ejecicio10(String num1, String num2) {
 //		 APARTADO 10
@@ -299,10 +299,10 @@ public class Ejercicio3 {
 	}
 
 	/*
-	 * Crea un array de cadenas que almacenará nombres de alumnos, y crea otro array
-	 * de enteros de 2 dimensiones. La primera dimensión indicará el alumno (se
-	 * corresponderá con la posición del array de nombres) y la segunda sus notas.
-	 * Crea 4 alumnos con 4 notas cada uno. A continuación muestra los nombres de lo
+	 * Crea un array de cadenas que almacenarÃ¡ nombres de alumnos, y crea otro array
+	 * de enteros de 2 dimensiones. La primera dimensiÃ³n indicarÃ¡ el alumno (se
+	 * corresponderÃ¡ con la posiciÃ³n del array de nombres) y la segunda sus notas.
+	 * Crea 4 alumnos con 4 notas cada uno. A continuaciÃ³n muestra los nombres de lo
 	 * alumnos y su nota media.
 	 */
 
@@ -351,7 +351,7 @@ public class Ejercicio3 {
 		nombreAlumnos = new String[new Scanner(System.in).nextInt()];
 		int[][] notasAlumnos = new int[nombreAlumnos.length][4];
 		for (int i = 0; i < nombreAlumnos.length; i++) {
-			System.out.println("Introduce el nombre del alumno Nº" + (i + 1));
+			System.out.println("Introduce el nombre del alumno NÂº" + (i + 1));
 			nombreAlumnos[i] = new Scanner(System.in).next();
 			for (int j = 0; j < notasAlumnos[i].length; j++) {
 				System.out.println("introduce la nota " + (j + 1) + " de " + nombreAlumnos[i]);
@@ -371,12 +371,12 @@ public class Ejercicio3 {
 
 	/*
 	 * Crea un array bidimensional de cadenas. En este array almacenaremos productos
-	 * con sus respectivos datos. La primera dimensión hará referencia a la posición
-	 * de cada producto. Y para cada producto (segunda dimensión), almacenaremos lo
+	 * con sus respectivos datos. La primera dimensiÃ³n harÃ¡ referencia a la posiciÃ³n
+	 * de cada producto. Y para cada producto (segunda dimensiÃ³n), almacenaremos lo
 	 * siguiente (son cadenas todo): Nombre, precio y cantidad (3 campos). Recorre
-	 * los productos, y muéstralos en formato de tabla, con el nombre, precio,
-	 * cantidad y precio total. Ten en cuenta que los datos están almacenados como
-	 * cadenas y deberás convertir el precio a número decimal y la cantidad a número
+	 * los productos, y muÃ©stralos en formato de tabla, con el nombre, precio,
+	 * cantidad y precio total. Ten en cuenta que los datos estÃ¡n almacenados como
+	 * cadenas y deberÃ¡s convertir el precio a nÃºmero decimal y la cantidad a nÃºmero
 	 * entero. Ejemplo de tabla (formatea con longitud fija para cada campo):
 	 */
 	public static void ejercio13() {
